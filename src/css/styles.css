@@ -11,8 +11,6 @@
 
 
 .loader {
-  display: none;
-  display: block; 
   width: 50px;
   height: 50px;
   border: 5px solid #ccc;
@@ -21,7 +19,6 @@
   animation: spin 1s linear infinite;
   margin: 20px auto;
 }
-
 .loader.visible {
   display: block;
 }
@@ -69,4 +66,8 @@
 
 .image-info p {
   margin: 4px 0;
+}
+
+.hidden {
+  display: none !important;
 }
